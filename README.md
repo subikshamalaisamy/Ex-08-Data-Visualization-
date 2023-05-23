@@ -42,11 +42,11 @@ plt.axvline(x=np.percentile(df['Sales'],75),c='orange', ls='--',label = '75th pe
 
 plt.legend()
 
-sns.boxplot(x=df['Segment'], y=df['Sales'])
+sns.barplot(x=df['Segment'], y=df['Sales'])
 
 sns.scatterplot(x=df['City'], y=df['Sales'])
 
-sns.boxplot(x=df['Region'],y= df['Sales'])
+sns.barplot(x=df['Region'],y= df['Sales'])
 
 # OUPUT
 
@@ -54,9 +54,10 @@ sns.boxplot(x=df['Region'],y= df['Sales'])
 <img width="213" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/643ea486-c0b5-4b1d-8457-37675bd8e05f">
 <img width="119" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/7951f610-f721-43f5-a1e8-627b43de066a">
 <img width="365" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/8769100f-7659-4aca-9217-53b7e54b06df">
-<img width="365" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/bf9f4aa8-2524-4bd1-b420-f0063deff6f2">
+<img width="416" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/3284636d-e569-46ff-b3fc-6486b4c724d5">
 <img width="383" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/e3f77293-72c3-4a53-9e6f-b32ff4d25864">
-<img width="359" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/db4291b6-e2b7-4704-a55d-4790d7e05c15">
+<img width="401" alt="image" src="https://github.com/subikshamalaisamy/Ex-08-Data-Visualization-/assets/87276633/01e02ceb-d744-4b4d-96ac-c197f763167e">
+
 
 # RESULT
 
